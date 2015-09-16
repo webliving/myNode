@@ -1,0 +1,41 @@
+{
+  "name": "mytool",
+  "version": "1.0.0",
+  "description": "tool for node",
+  "homepage": "http://www.node.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webliving/bower.git"
+  },
+  "author": {
+    "name": "卢淮建",
+    "email": "webliving@qq.com",
+    "url": "http://www.time.org"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "tool",
+    "node"
+  ],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-babel": "^5.1.0",
+    "babel-core": "^5.5.0",
+    "isparta": "^3.0.3"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
